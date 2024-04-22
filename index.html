@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container"></div>
+
+    <!-- Header -->
+    <header>
+      <nav>
+        <img src="/images/logo.svg" class="header-logo" />
+
+        <img src="/images/icon-menu.svg" class="hamburger-icon" />
+        <!-- <div class="close-menu"><img src="/images/icon-close-menu.svg" /></div> -->
+        <section class="list-container inactive">
+          <section class="nav_bar">
+            <figure class="icon-close-menu-content">
+              <img src="/images/icon-close-menu.svg" class="close-menu-icon" />
+            </figure>
+
+            <section class="header-left">
+              <ul>
+                <li>
+                  Features
+                  <img
+                    src="/images/icon-arrow-down.svg"
+                    class="show-feature-list"
+                  />
+                  <ul class="features-list">
+                    <li><img src="/images/icon-todo.svg" />List</li>
+                    <li><img src="/images/icon-calendar.svg" />Calendar</li>
+                    <li><img src="/images/icon-reminders.svg" />Reminders</li>
+                    <li><img src="/images/icon-planning.svg" />Planning</li>
+                  </ul>
+                </li>
+                <li>
+                  Company
+                  <img
+                    src="/images/icon-arrow-down.svg"
+                    class="show-company-list"
+                  />
+                  <ul class="company-list">
+                    <li>History</li>
+                    <li>Our Team</li>
+                    <li>Blog</li>
+                  </ul>
+                </li>
+                <li>Careers</li>
+                <li>About</li>
+              </ul>
+            </section>
+            <div class="header-btn">
+              <a href="#">Login</a>
+              <a href="#" class="register">Register</a>
+            </div>
+          </section>
+        </section>
+      </nav>
+    </header>
+    <script src="/index.js"></script>
+  </body>
+</html>
